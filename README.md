@@ -6,6 +6,11 @@ Please install docker for mac to use.
 
 Start docker for mac and enter the command in the terminal.
 
+Move to docker-jupyter-lab directory.
+```
+$ cd docker-jupyter-lab
+```
+
 Build the service.
 ```
 $ docker-compose build
@@ -17,8 +22,11 @@ $ docker-compose up
 ```
 
 When you access the URL displayed in the terminal, the notebook will be launched.
+
 (example)
+```
 http://127.0.0.1:8888/lab?token=XXXXX
+```
 
 The notebook is saved in the app directory.
 
