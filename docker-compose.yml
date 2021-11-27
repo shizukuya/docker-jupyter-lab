@@ -10,6 +10,6 @@ services:
     tty: true
     working_dir: '/root/'
     volumes:
-      - ./opt:/root
+      - ./app:/root
     ports:
       - '8888:8888'
