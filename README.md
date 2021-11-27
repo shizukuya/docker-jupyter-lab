@@ -30,9 +30,7 @@ http://127.0.0.1:8888/lab?token=XXXXX
 
 The notebook is saved in the app directory.
 
-When you're done, type ctr + c into the terminal.
-
-Then enter the command in the terminal.
+When you're done, type `ctr + c` in the terminal. Then enter the command in the terminal to end the service.
 ```
 $ docker-compose down
 ```
