@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 
 RUN yum update -y
 RUN yum install -y python3-devel python3-pip mesa-libGL gcc gcc-c++ freetype freetype-devel libpng-devel make
